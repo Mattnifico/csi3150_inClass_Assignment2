@@ -64,9 +64,6 @@ function init() {
   appearance1();
   appearance2();
   appearance3();
-  disappearance1();
-  disappearance2();
-  disappearance3();
 }
 
 init();
