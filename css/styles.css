@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: "Poppins", "Courier New", Courier, monospace;
+  background-color: lightskyblue;
+}
+
+.heading h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons button {
+  padding: 1rem 5rem;
+  margin: 5rem 17rem;
+  position: relative;
+  bottom: -35rem;
+}
+
+.buttonDisplays {
+  display: flex;
+}
+
+#b1Display {
+  display: none;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 3rem;
+  padding: 1rem;
+}
+
+.button1Display button {
+  display: flex;
+  position: relative;
+  left: 40%;
+}
+
+#b2Display {
+  display: none;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 48rem;
+  padding: 1rem;
+}
+
+.button2Display button {
+  display: flex;
+  position: relative;
+  left: 40%;
+}
+
+#b3Display {
+  display: none;
+  background-color: antiquewhite;
+  position: absolute;
+  left: 92.5rem;
+  padding: 1rem;
+}
+
+.button3Display button {
+  display: flex;
+  position: relative;
+  left: 40%;
+}
